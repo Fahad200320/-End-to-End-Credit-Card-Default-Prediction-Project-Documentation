@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-with open(r'C:\Users\sk abdul fahad\OneDrive\ml project\Models\model.pkl', 'rb') as file: 
+with open(r'Models\model.pkl', 'rb') as file: 
          model = pickle.load(file)
 
 
